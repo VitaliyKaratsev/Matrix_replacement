@@ -6,9 +6,7 @@
 
 using namespace std;
 
-
 int main()
-
 {
 	setlocale(LC_ALL, "rus");
 	srand(time(0));
@@ -20,7 +18,6 @@ int main()
 		{
 			a[i][j] = 5 + rand() % 45; // заполнение матрицы рандомными числами
 			cout << setw(4) << a[i][j];// вывод матрицы
-
 		}
 
 		cout << endl;
@@ -45,15 +42,10 @@ int main()
 		{
 
 			cout << setw(4) << a[i][j];
-
 		}
 
 		cout << endl;
 	}
-
-
-
-
 
 	system("pause");
 	return 0;
